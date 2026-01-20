@@ -8,6 +8,11 @@ function App() {
   return (
     <div>
       <p>Hello, World</p>
+      {name ?(
+        <>
+        test
+        </>
+      )}
     </div>
   )
 }
