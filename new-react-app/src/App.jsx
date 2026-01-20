@@ -10,7 +10,7 @@ function App() {
       <p>Hello, World</p>
       {name ?(
         <>
-        test
+        test {name}
         </>
       ):(
         <>
