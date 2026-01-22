@@ -6,29 +6,19 @@ import './App.css'
 const Person = (props) => {
   return(
     <>
-    <h1>Name :</h1>
-    <h2>Last name :</h2>
+    <h1>Name : {props.name}</h1>
+    <h2>Last name : {props.ln  }</h2>
+    <h2>Age: {props.age}</h2>
     </>
   )
 }
 
 function App() {
-  const name = 'Victoire';
   return (
     <div>
-      <p>Hello, World</p>
       <Person/>
-      {name ?(
-        <>
-        test {name}
-        </>
-      ):(
-        <>
-        <h1>Test</h1>
-        <h2>There is no name</h2>
-        <h2>Age:</h2>
-        </>
-      )}
+      <Person/>
+      
     </div>
   )
 }
