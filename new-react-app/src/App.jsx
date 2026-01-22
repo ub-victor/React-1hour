@@ -7,7 +7,9 @@ const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=7b5751eb';
 
 
 function App() { 
-  
+  useEffect (()=>{
+
+  }, []);
   return (
     <div>
       <button onClick={()=> setCounter((prevCount)=> prevCount -1)}>-</button>
