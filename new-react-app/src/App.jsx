@@ -33,6 +33,6 @@ function App() {
   )
 }
 
-export default App
+export default App;
 
 27:48
