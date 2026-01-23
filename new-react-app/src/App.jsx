@@ -28,7 +28,9 @@ function App() {
         />
       </div>
 
-      <div className='container'></div>
+      <div className='container'>
+        
+      </div>
    </div>
   )
 }
