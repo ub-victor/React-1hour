@@ -6,12 +6,16 @@ const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=7b5751eb';
 
 
 function App() { 
-  useEffect (()=>{
-    const searchMovies = async (title)=>{
-      const respont = await fetch(`${API_URL}&s=${title}`)
-      const data = await respont.json();
-    }
-  }, []);
+  useEffect(() => {
+  const searchMovies = async (title) => {
+    const response = await fetch(`${API_URL}&s=${title}`)
+    const data = await response.json()
+    console.log(data)
+  }
+
+  searchMovies("Batman")
+  }, [])
+
   return (
     <div>
       <button onClick={()=> setCounter((prevCount)=> prevCount -1)}>-</button>
