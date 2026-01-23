@@ -9,6 +9,7 @@ function App() {
   useEffect (()=>{
     const searchMovies = async (title)=>{
       const respont = await fetch(`${API_URL}&s=${title}`)
+      const data = await respont.json();
     }
   }, []);
   return (
