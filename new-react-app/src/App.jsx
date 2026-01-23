@@ -24,7 +24,8 @@ function App() {
       <div className='search'>
         <input type="text"
           placeholder='Superman'
-          onChange={()=>{}} />
+          onChange={()=>{}}
+        />
       </div>
    </div>
   )
