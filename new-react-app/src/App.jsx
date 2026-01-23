@@ -18,7 +18,9 @@ function App() {
   }, [])
 
   return (
-   <div className='app'></div>
+   <div className='app'>
+      <h1>MovieLand</h1>
+   </div>
   )
 }
 
