@@ -21,7 +21,9 @@ function App() {
    <div className='app'>
       <h1>MovieLand</h1>
 
-      <div className='search'></div>
+      <div className='search'>
+        
+      </div>
    </div>
   )
 }
