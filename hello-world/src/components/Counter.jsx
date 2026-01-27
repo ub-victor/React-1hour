@@ -8,7 +8,6 @@ const Counter = () => {
         </div>
 
 
-
      );
 }
  
