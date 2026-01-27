@@ -6,7 +6,7 @@ const Message = (props) => {
         const {message, setMessage}    
         <>
         <h1>Welcome Visitor</h1>
-        {props.children}
+        <button>Subscribe</button>
         </>
                 
      );
