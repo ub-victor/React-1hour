@@ -1,4 +1,4 @@
-const Greet = (props) => {
+const Message = (props) => {
     return (
         <>
         <h1>Welcome Visitor</h1>
@@ -8,4 +8,4 @@ const Greet = (props) => {
      );
 }
  
-export default Greet;  
+export default Message;  

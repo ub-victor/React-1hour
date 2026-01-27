@@ -7,12 +7,9 @@ function App() {
 
   return (
     <>
-      <Message name = "Victoire" heroName= "batman">
+      <Message>
         <p>This is children props</p>
       </Message>
-      <Greet name = "Ushindi" heroName= "ironman">
-        <button>Action</button>
-      </Greet>
     </>
   )
 }
