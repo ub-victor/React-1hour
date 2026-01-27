@@ -1,6 +1,6 @@
-const Greet = () => {
+const Greet = (props) => {
     return ( 
-        <h1>Hello Victoire</h1>
+        <h1>Hello {name}</h1>
      );
 }
  
