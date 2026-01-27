@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Greet name = "Victoire" heroName= "batman">
-        
+        <p>This is children props</p>
       </Greet>
       <Greet name = "Ushindi" heroName= "ironman"/>
     </>
