@@ -8,4 +8,4 @@ const Greet = ({name,heroName}) => {
      );
 }
  
-export default Greet; 
+export default Greet;
