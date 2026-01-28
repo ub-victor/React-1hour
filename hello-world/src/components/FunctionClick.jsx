@@ -1,6 +1,9 @@
 const FunctionClick = () => {
+    function clickHandler(){
+        console.log('Button clicked')
+    }
     return ( 
-        <button>Click</button>
+        <button onClick={()=> clickHandler()}>Click</button>
      );
 }
  
