@@ -7,13 +7,7 @@ function App() {
   const Card = ({title})=>{
     const [hasLiked, setHasLiked] = useState(false)
     return (
-      <div className='card' style={{
-        border: '1px solid #4b5362',
-        padding: '10px',
-        margin: '10px',
-        backgroundColor: '#31363f',
-        borderRadius: '10px'
-      }}>
+      <div className='card'>
         <h2>{title}</h2>
       </div>
     )
