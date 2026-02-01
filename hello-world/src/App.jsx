@@ -13,8 +13,11 @@ function App() {
   }
 
   return (
-    <div>
-      
+    <div className='card-container'>
+      <Card title="Star Wars"/>
+       <Card title="Star Wars"/>
+        <Card title="Star Wars"/>
+
     </div>
     
   )
