@@ -10,7 +10,7 @@ function App() {
       <div className='card'>
         <h2>{title}</h2>
 
-        <button onClick={()=> setHasLiked(true) }>
+        <button onClick={()=> setHasLiked(!hasLiked) }>
           {hasLiked? "❤️": "🤍"}
         </button>
       </div>
