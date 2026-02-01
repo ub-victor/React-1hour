@@ -24,7 +24,7 @@ function App() {
       <Card title="The Lion King"/>
 
     </div>
-    
+     
   )
 }
 
