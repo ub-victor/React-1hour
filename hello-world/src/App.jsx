@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './index.css'
@@ -6,10 +5,11 @@ import { useState, useEffect } from 'react'
 function App() {
 
   const Card = ({title})=>{
+    const [count, setCount] = useEffect(0)
     const [hasLiked, setHasLiked] = useState(false)
-    useEffect()=>{
+    useEffect(()=>{
       console.log(`${title} has been liked: ${hasLiked}`);
-    }
+    });
     return (
       <div className='card'>
         <h2>{title}</h2>
