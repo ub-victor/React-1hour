@@ -26,5 +26,9 @@ h2 {
 }
 
 .card {
-  
+  border: '1px solid #4b5362',
+  padding: 10px;
+  margin: 10px;
+  background-color: #31363f;
+  border-radius: '10px;
 }
