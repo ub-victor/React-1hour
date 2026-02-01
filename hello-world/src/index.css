@@ -21,4 +21,5 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1024px;
 }
