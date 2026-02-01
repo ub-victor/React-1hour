@@ -36,7 +36,9 @@ h2 {
 button {
   border: none;
   font-size: 30px;
+  /* width: 100%; */
   background-color: transparent;
-  text-align: right;
+  display: block;
+  margin-left: auto;
   cursor: pointer;
 }
