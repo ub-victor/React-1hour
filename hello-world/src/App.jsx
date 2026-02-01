@@ -11,7 +11,7 @@ function App() {
       console.log(`${title} has been liked: ${hasLiked}`);
     });
     return (
-      <div className='card'>
+      <div className='card' onClick={()=> setCount(count + 1)}>
         <h2>{title}</h2>
 
         <button onClick={()=> setHasLiked(!hasLiked) }>
