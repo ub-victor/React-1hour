@@ -10,6 +10,8 @@ const App = () => {
           <img src="./hero.png" alt="Hero banner" />
           <h1>Find <span className='text-gradient'>Movies</span> you'll Enjoy without the Hassle</h1>
         </header>
+
+      
       </div>
     </main>
   )
