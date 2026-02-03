@@ -40,7 +40,7 @@ const App = () => {
         </header>
 
         <section className='all-movies'>
-          <h1></h1>
+          <h2>All movies</h2>
         </section>
 
       
