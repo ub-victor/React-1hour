@@ -39,6 +39,10 @@ const App = () => {
           <Search searchTerm={searchTerm} setSearchTerm= {setSearchTerm}/>
         </header>
 
+        <section>
+          
+        </section>
+
       
       </div>
     </main>
