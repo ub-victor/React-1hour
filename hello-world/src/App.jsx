@@ -6,7 +6,8 @@ const App = () => {
 
   useEffect(()=>{
 
-  },[])
+  },[]);
+
   return (
     <main>
       <div className='pattern'/>
