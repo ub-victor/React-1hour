@@ -18,7 +18,7 @@ const App = () => {
     try{
 
     } catch(error){
-      console.log(`error.message`)
+      console.log(`Error fetching movies: ${error.message}`)
     }
   }
 
